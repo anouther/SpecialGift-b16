@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('happy mensivee yg ke 7 sayangku!').split('');
+        const titles = ('Happy 5th Mensiversary, love! ').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "aku berharap kita bisa barengg' terus ya sayanggg, i'm so glad to know and be your boyfriend🤍 i love you so muchh juta sayaangg🤍";
+            subtitle.innerText = "Mas nggak nyangka kita udah selama ini sayang! Mas sayang banget sama kamu! Mas kasi bunga ini buat pacar mas yang paling cantik, bunganya warna pink biar cantik kaya kamu. Semoga kita selalu bareng dan bisa ketemu ditanggal 14 lainnya sayang! ";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
